@@ -1,0 +1,22 @@
+{
+	"manifest_version":2,
+	
+	"name": "Cache Grab",
+	"description": "retrieves google cached version of current webpage using custom search api",
+	"version": "1.0",
+	
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+	{
+		},
+	"background":{
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"activeTab",
+		"<all_urls>"
+		]
+}
